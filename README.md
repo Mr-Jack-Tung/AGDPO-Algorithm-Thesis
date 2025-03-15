@@ -1,7 +1,5 @@
 # AGDPO-Algorithm-Thesis
 
-The main ideas behind **Adaptive Group-Direct Policy Optimization (AGDPO)** along with its algorithm outline.
-
 ## Main Ideas of AGDPO
 **Hybrid Approach:**
   AGDPO combines the strengths of direct preference optimization (DPO) and group relative comparisons (GRPO) while incorporating stabilization techniques from PPO (such as clipping). This hybrid approach enables the model to be fine-tuned directly from human preference data while mitigating noise and instability.
@@ -72,7 +70,7 @@ for each training iteration:
 ```
 
 
-##Summary
+## Summary
 
 AGDPO is an innovative approach that:
 - Directly optimizes the language model policy based on human preferences.

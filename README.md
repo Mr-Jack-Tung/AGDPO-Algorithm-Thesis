@@ -18,6 +18,7 @@ AGDPO defines two loss components:
   - Group Loss: Aggregates information from a group of ranked responses to capture overall preference trends.
 
 An adaptive weighting parameter α balances these two losses:
+
 <img width="310" alt="two loss components" src="https://github.com/user-attachments/assets/cf869445-9f68-4e09-9ba9-ccc0986ecdfb" />
 
 

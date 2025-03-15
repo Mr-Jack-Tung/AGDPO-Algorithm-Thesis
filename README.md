@@ -16,7 +16,11 @@ The main ideas behind **Adaptive Group-Direct Policy Optimization (AGDPO)** alon
 AGDPO defines two loss components:
   - Pairwise Loss: Encourages the policy to prefer responses that humans ranked higher.
   - Group Loss: Aggregates information from a group of ranked responses to capture overall preference trends.
-  <img width="310" alt="two loss components" src="https://github.com/user-attachments/assets/cf869445-9f68-4e09-9ba9-ccc0986ecdfb" />
+<img width="310" alt="two loss components" src="https://github.com/user-attachments/assets/cf869445-9f68-4e09-9ba9-ccc0986ecdfb" />
+
+
+## AGDPO Algorithm Outline
+<img width="1200" alt="two loss components" src="https://github.com/Mr-Jack-Tung/AGDPO-Algorithm-Thesis/blob/main/AGDPO%20Algorithm%20Outline.png"/>
 
 
 ## Pseudocode for AGDPO

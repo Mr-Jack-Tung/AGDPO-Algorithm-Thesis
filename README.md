@@ -20,7 +20,7 @@ AGDPO defines two loss components:
 
 
 ## AGDPO Algorithm Outline
-<img width="1200" alt="two loss components" src="https://github.com/Mr-Jack-Tung/AGDPO-Algorithm-Thesis/blob/main/AGDPO%20Algorithm%20Outline.png"/>
+<img width="800" alt="two loss components" src="https://github.com/Mr-Jack-Tung/AGDPO-Algorithm-Thesis/blob/main/AGDPO%20Algorithm%20Outline.png"/>
 
 
 ## Pseudocode for AGDPO

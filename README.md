@@ -24,7 +24,7 @@ An adaptive weighting parameter α balances these two losses:
 
 ## AGDPO Algorithm Outline
 
-<img width="620" alt="AGDPO Algorithm Outline" src="https://github.com/user-attachments/assets/85a01272-0061-46ea-a3af-cf16423f2fb5" />
+<img width="680" alt="AGDPO Algorithm Outline" src="https://github.com/user-attachments/assets/85a01272-0061-46ea-a3af-cf16423f2fb5" />
 
 
 ## Pseudocode for AGDPO

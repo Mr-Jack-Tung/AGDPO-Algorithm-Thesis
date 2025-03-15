@@ -72,7 +72,8 @@ for each training iteration:
 ```
 
 
-Summary
+##Summary
+
 AGDPO is an innovative approach that:
 - Directly optimizes the language model policy based on human preferences.
 - Leverages both pairwise and group ranking signals.

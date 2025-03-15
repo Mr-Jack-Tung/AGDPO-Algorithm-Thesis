@@ -5,8 +5,10 @@ The main ideas behind **Adaptive Group-Direct Policy Optimization (AGDPO)** alon
 ## Main Ideas of AGDPO
 **Hybrid Approach:**
   AGDPO combines the strengths of direct preference optimization (DPO) and group relative comparisons (GRPO) while incorporating stabilization techniques from PPO (such as clipping). This hybrid approach enables the model to be fine-tuned directly from human preference data while mitigating noise and instability.
+
 **Direct Optimization with Preferences:**
   Rather than building an explicit reward model, AGDPO directly optimizes the policy using human feedback. It leverages both pairwise comparisons (winner vs. loser) and group-level rankings to extract richer information about user preferences.
+
 **Stabilization via Clipping and Anchoring:**
   To prevent large policy updates (which can lead to divergence), AGDPO uses a clipping mechanism similar to PPO. It anchors the policy update with respect to a reference policy so that the new policy does not drift too far from the original, ensuring stable training.
 
